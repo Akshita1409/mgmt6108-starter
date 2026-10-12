@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --st-navy: #002663;
+    --st-dark-navy: #0b2046;
+    --st-grey: #555555;
+    --st-light-grey: #f5f5f5;
+    --st-border: #e5e7eb;
+  }
+}
+
+.logo-font {
+  font-family: 'Times New Roman', 'Newsreader', Times, Georgia, serif;
+  letter-spacing: -0.015em;
+  font-weight: 800;
+}
+
+.headline-font {
+  font-family: 'Georgia', 'Lora', Cambria, serif;
+  line-height: 1.28;
+}
+
+.article-body-font {
+  font-family: 'Georgia', 'Lora', serif;
+  line-height: 1.8;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}

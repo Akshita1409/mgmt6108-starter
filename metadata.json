@@ -1,0 +1,6 @@
+{
+  "name": "The Straits Times - AI & Tech News",
+  "description": "The Straits Times AI and technology news portal featuring latest updates, breaking headlines, and in-depth tech journalism.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
